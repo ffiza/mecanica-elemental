@@ -18,7 +18,9 @@ Considere dos partículas de masa $$m$$ que interactúan gravitatoriamente entre
 
 ---
 
-## Spacing
+## Repaso
+
+![](../../assets/images/physics.jpg)
 
 
 These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively.
