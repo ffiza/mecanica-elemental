@@ -15,7 +15,7 @@ Este sitio contiene una serie de notas y ejercicios resueltos relacionados con l
 
 #### Contenidos
 
-1. Cinemática
+1. [Cinemática][cinematica]
 2. Dinámica
 3. Rozamiento
 4. Oscilaciones
@@ -31,3 +31,5 @@ Este sitio contiene una serie de notas y ejercicios resueltos relacionados con l
 ----
 
 [^1]: Estas notas son personales y no tienen ninguna afiliación con la universidad, la facultad, los cursos de la misma o el cuerpo docente.
+
+[cinematica]: {% link docs/cinematica/index.md %}
