@@ -1,6 +1,7 @@
 ---
 title: Ejemplo
-parent: gravitacion
+layout: default
+parent: Gravitación
 ---
 
 # Dos partículas bajo la interacción de la gravedad
