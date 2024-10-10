@@ -53,7 +53,7 @@ Las únicas fuerzas que actúan en el sistema son las gravitatorias y son intern
 
 ### Sistema de referencia
 
-En segundo lugar, tenemos que definir el sistema de referencia que vamos a utilizar. En esta clase de problemas suele ser una buena idea pararnos en el centro de masa (CM) y describir todo el movimiento desde allí. Sin embargo, primero tenemos que asegurarnos de que el CM es un sistema válido\footnote{Por ``válido'' quiero decir que sea un sistema inercial; es decir, que tenga aceleración nula. No queremos pelear con fuerzas inerciales acá.} para trabajar. Ya sabemos (desde la guía de momento lineal) que la aceleración del CM está relacionada con la sumatoria de fuerzas externas, es decir
+En segundo lugar, tenemos que definir el sistema de referencia que vamos a utilizar. En esta clase de problemas suele ser una buena idea pararnos en el centro de masa (CM) y describir todo el movimiento desde allí. Sin embargo, primero tenemos que asegurarnos de que el CM es un sistema válido[^1] para trabajar. Ya sabemos (desde la guía de momento lineal) que la aceleración del CM está relacionada con la sumatoria de fuerzas externas, es decir
 
 $$M \mathbf{A}_\mathrm{CM} = \sum_i \mathbf{F}_i^\mathrm{ext},$$
 
@@ -87,7 +87,9 @@ La figura siguiente muestra la configuración inicial del sistema, la posición 
 
 Noten que con este análisis ya respondimos una parte del inciso (a) y todo el inciso (b).
 
+----
 
+[^1]: Por *válido* quiero decir que sea un sistema inercial; es decir, que tenga aceleración nula. No queremos pelear con fuerzas inerciales acá.
 
 
 
