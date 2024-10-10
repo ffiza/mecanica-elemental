@@ -6,7 +6,14 @@ nav_order: 4
 ---
 
 # Dos partículas bajo la interacción de la gravedad
-{: .no_toc }
+{: .fs-9 }
+
+Resolución de un ejercicio sencillo en el cual dos partículas interactúan mediante una fuerza gravitatoria.
+{: .fs-6 .fw-300 }
+
+---
+
+## Enunciado
 
 Considere dos partículas de masa $$m$$ que interactúan gravitatoriamente entre sí. Las partículas pueden moverse sobre una mesa horizontal libre de rozamiento. En el instante inicial ($$t = 0$$) las partículas se hallan separadas una distancia $$d$$ y se le da a cada una de ellas una velocidad $$\mathbf{v}_0$$ de módulo $$v_0$$ y dirección indicada en la figura.
 
