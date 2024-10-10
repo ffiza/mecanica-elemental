@@ -1,5 +1,6 @@
 ---
 title: Gravitación
+layout: post
 nav_order: 4
 ---
 

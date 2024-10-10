@@ -15,7 +15,7 @@ Este sitio contiene una serie de notas y ejercicios resueltos relacionados con l
 
 #### Contenidos
 
-1. [Cinemática][cinematica]
+1. Cinemática
 2. Dinámica
 3. Rozamiento
 4. Oscilaciones
@@ -24,7 +24,7 @@ Este sitio contiene una serie de notas y ejercicios resueltos relacionados con l
 7. Momento lineal
 8. Momento angular
 9. Trabajo y energía
-10. Gravitación
+10. [Gravitación][gravitacion]
 11. Cinemática del cuerpo rígido
 12. Dinámica del cuerpo rígido
 
@@ -32,4 +32,4 @@ Este sitio contiene una serie de notas y ejercicios resueltos relacionados con l
 
 [^1]: Estas notas son personales y no tienen ninguna afiliación con la universidad, la facultad, los cursos de la misma o el cuerpo docente.
 
-[cinematica]: {% link docs/cinematica/index.md %}
+[gravitacion]: {% link docs/gravitacion/index.md %}
