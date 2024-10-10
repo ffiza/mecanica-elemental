@@ -185,7 +185,11 @@ $$\dot{r}_1^2 ( r_1 ) = v_0^2 - \frac{d^2 v_0^2 \sin^2 \alpha}{4 r_1^2} + G m \l
 
 El enunciado pedía las velocidades de las partículas cuando la separación entre ambas es $$d/2$$. ¿Qué valor tenemos que darle a $$r_1$$ para que eso se cumpla? Recuerden que $$r_1$$ es la distancia entre el CM y la partícula 1, que es, a su vez, la mitad de la distancia que hay entre las partículas. Por lo tanto, para que 1 y 2 estén separadas $$d/2$$ tenemos que usar $$r_1 = d/4$$. Reemplazando ese valor, nos quedan las velocidades
 
-$$\dot{\theta}_1 = - \frac{8 v_0 \sin \alpha}{d} \end{equation*} y \begin{equation*} \dot{r}_1^2 = v_0^2 \left( 1 - 4 \sin^2 \alpha \right) + \frac{Gm}{d}.$$
+$$\dot{\theta}_1 = - \frac{8 v_0 \sin \alpha}{d}$$
+
+y
+
+$$\dot{r}_1^2 = v_0^2 \left( 1 - 4 \sin^2 \alpha \right) + \frac{Gm}{d}.$$
 
 Les dejo una pregunta sobre estos resultados. Noten que $$\dot{r}_1$$ está definido por una raíz cuadrada. ¿Cuál es la interpretación física de que el argumento de dicha raíz sea negativo?
 
