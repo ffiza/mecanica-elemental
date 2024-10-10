@@ -5,15 +5,15 @@ nav_order: 1
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Mecánica elemental
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
 {: .fs-6 .fw-300 }
 
-[GitHub][www.google.com]{: .btn .fs-5 .mb-4 .mb-md-0 }
-
 ---
+
+#### Contenidos
 
 Just the Docs is a theme for generating static websites with Jekyll. You can write source files for your web pages using Markdown, the Liquid templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Your [Jekyll configuration] file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
 
