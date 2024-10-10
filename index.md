@@ -5,7 +5,7 @@ nav_order: 0
 permalink: /
 ---
 
-# Mecánica elemental
+# Física elemental
 {: .fs-9 }
 
 Este sitio contiene una serie de notas y ejercicios resueltos relacionados con los contenidos de la materia Física 1 de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires[^1].
