@@ -21,6 +21,8 @@ Considere dos partículas de masa $$m$$ que interactúan gravitatoriamente entre
 ## Spacing
 
 <script src="./assets/js/example-plot.js" defer></script>
+<script src="/assets/js/example-plot.js" defer></script>
+<script src="assets/js/example-plot.js" defer></script>
 
 These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively.
 
