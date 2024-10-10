@@ -1,6 +1,6 @@
 ---
 title: Gravitación
-layout: post
+layout: default
 nav_order: 4
 ---
 
