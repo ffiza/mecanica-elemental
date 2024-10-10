@@ -32,6 +32,4 @@ Este sitio contiene una serie de notas y ejercicios resueltos relacionados con l
 
 [^1]: Estas notas son personales y no tienen ninguna afiliación con la universidad, la facultad, los cursos de la misma o el cuerpo docente.
 
-<a href="https://www.flaticon.com/free-icons/newton" title="newton icons">Newton icons created by Nhor Phai - Flaticon</a>
-
 [gravitacion]: {% link docs/gravitacion/index.md %}
