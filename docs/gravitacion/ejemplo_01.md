@@ -6,7 +6,7 @@ nav_order: 4
 ---
 
 # Dos partículas bajo la interacción de la gravedad
-{: .fs-9 }
+{: .no_toc }
 
 Resolución de un ejercicio sencillo en el cual dos partículas interactúan mediante una fuerza gravitatoria.
 {: .fs-6 .fw-300 }
