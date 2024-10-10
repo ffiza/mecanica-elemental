@@ -20,7 +20,7 @@ Considere dos partículas de masa $$m$$ que interactúan gravitatoriamente entre
 
 ## Repaso
 
-![](/assets/images/physics.png)
+![](../../assets/images/physics.png)
 
 Dos partículas de masas $$m_1$$ y $$m_2$$ y posiciones $$\mathbf{r}_1$$ y $$\mathbf{r}_2$$, respectivamente, que interactúan gravitatoriamente están sujetas a una fuerza que es inversamente proporcional al cuadrado de la distancia que las separa y que actúa a lo largo de la línea que las une, como vemos en la figura siguiente.
 
