@@ -2,6 +2,7 @@
 title: Ejemplo
 layout: default
 parent: Gravitación
+nav_order: 4
 ---
 
 # Dos partículas bajo la interacción de la gravedad
