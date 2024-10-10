@@ -125,17 +125,25 @@ Como se ve en la figura XXXXXXXXXX, vamos a llamar 1 a la partícula que inicial
 
 Notemos primero que como el CM está quieto en el origen de coordenadas, las posiciones de 1 y 2 no son independientes. De hecho,
 
-$$\mathbf{R}_\mathrm{CM} = \frac{m \mathbf{r}_1 + m \mathbf{r}_2}{2 m} = 0, \end{equation*} por lo que \begin{equation*} \mathbf{r}_2 = - \mathbf{r}_1.$$
+$$\mathbf{R}_\mathrm{CM} = \frac{m \mathbf{r}_1 + m \mathbf{r}_2}{2 m} = 0,$$
+
+por lo que
+
+$$\mathbf{r}_2 = - \mathbf{r}_1.$$
 
 Lo mismo vale, además, para las velocidades:
 
-$$\mathbf{V}_\mathrm{CM} = \frac{m \mathbf{v}_1 + m \mathbf{v}_2}{2 m} = 0. \end{equation*} Entonces, \begin{equation*} \mathbf{v}_2 = - \mathbf{v}_1.$$
+$$\mathbf{V}_\mathrm{CM} = \frac{m \mathbf{v}_1 + m \mathbf{v}_2}{2 m} = 0.$$
+
+Entonces,
+
+$$\mathbf{v}_2 = - \mathbf{v}_1.$$
 
 La idea para resolver esta parte es, por supuesto, utilizar los teoremas de conservación. Sabemos que tanto $$\mathbf{p}$$, $$\mathbf{L}^\mathrm{CM}$$ y $$E$$ son cantidades conservadas del problema, es decir, su valor se mantiene constante a lo largo de toda la evolución. Calculemos entonces los valores iniciales del momento angular y la energía mecánica[^3], los que corresponden a la configuración de la figura XXXXX.
 
 El momento angular inicial $$\mathbf{L}_0^\mathrm{CM}$$ está dado por
 
-$$\begin{align*} \mathbf{L}_0^\mathrm{CM} &= \mathbf{L}^\mathrm{CM} (t=0), \\ &= m_1 \mathbf{r}_1 (t=0) \times \mathbf{v}_1 (t=0) + m_2 \mathbf{r}_2 (t=0) \times \mathbf{v}_2 (t=0), \\ &= m \mathbf{r}_1 (t=0) \times \mathbf{v}_1 (t=0) + m \mathbf{r}_2 (t=0) \times \mathbf{v}_2 (t=0), \\ &= 2 m \mathcolor{pred}{\mathbf{r}_1 (t=0)} \times \mathcolor{pblue}{\mathbf{v}_1 (t=0)}, \\ &= 2m \mathcolor{pred}{\left( \frac{d}{2} \hat{x} \right)} \times \mathcolor{pblue}{\left( -v_0 \cos \alpha \hat{x} - v_0 \sin \alpha \hat{y} \right)}, \\ &= - m d v_0 \sin \alpha \hat{z}. \end{align*}$$
+$$\begin{align*} \mathbf{L}_0^\mathrm{CM} &= \mathbf{L}^\mathrm{CM} (t=0), \\ &= m_1 \mathbf{r}_1 (t=0) \times \mathbf{v}_1 (t=0) + m_2 \mathbf{r}_2 (t=0) \times \mathbf{v}_2 (t=0), \\ &= m \mathbf{r}_1 (t=0) \times \mathbf{v}_1 (t=0) + m \mathbf{r}_2 (t=0) \times \mathbf{v}_2 (t=0), \\ &= 2 m \mathbf{r}_1 (t=0) \times \mathbf{v}_1 (t=0), \\ &= 2m \left( \frac{d}{2} \hat{x} \right) \times \left( -v_0 \cos \alpha \hat{x} - v_0 \sin \alpha \hat{y} \right), \\ &= - m d v_0 \sin \alpha \hat{z}. \end{align*}$$
 
 En la cuenta anterior, tenemos que usar que $$\mathbf{r}_2 = - \mathbf{r}_1$$ y que $$\mathbf{v}_2 = - \mathbf{v}_1$$. Les queda a ustedes descomponer los vectores.
 
@@ -143,7 +151,7 @@ La energía mecánica inicial $$E_0$$ es
 
 $$\begin{align*} E_0 &= E (t=0), \\ &= K_1 (t=0) + K_2 (t=0) + U (t=0), \\ &= \frac{1}{2} m v_0^2 + \frac{1}{2} m v_0^2 - G \frac{m^2}{d}, \\ &= m v_0^2 - G \frac{m^2}{d}. \end{align*}$$
 
-En la cuenta anterior usamos que $$\mathbf{r}_2 = - \mathbf{v}_1$$, que inicialmente la velocidad de 1 es $$v_0$$ y que la distancia inicial entre las partículas es $$\left| \mathbf{r}_1 - \mathbf{r}_2 \right| = d$$.
+En la cuenta anterior usamos que $$\mathbf{r}_2 = - \mathbf{v}_1$$, que inicialmente la velocidad de 1 es $$v_0$$ y que la distancia inicial entre las partículas es $$\lvert \mathbf{r}_1 - \mathbf{r}_2 \rvert = d$$.
 
 Ahora tenemos que escribir el momento angular y la energía mecánica en un instante cualquiera para así poder igual a los valores iniciales y despejar lo que nos interesa. Para eso, sin embargo, es conveniente usar coordenadas polares. Esto es así porque las fuerzas gravitatorias van a hacer que las partículas giren alrededor del CM, y ya sabemos que los problemas donde las cosas giran suelen ser más sencillos en polares.
 La Fig.~\ref{fig:config_gen} muestra el sistema de partículas en una configuración genérica y el sistema de coordenadas polares que vamos a usar para describir el movimiento (que apunta hacia la partícula 1). En gris, para tener la referencia, se muestra la configuración del instante inicial.
@@ -163,17 +171,17 @@ $$\begin{align*} E &= K_1 + K_2 + U, \\ &= \frac{1}{2} m v_1^2 + \frac{1}{2} m v
 Lo que tenemos que hacer a continuación es plantear la ecuaciones $$\mathbf{L}^\mathrm{CM} = \mathbf{L}_0^\mathrm{CM}$$ y $$E = E_0$$. Tenemos, por lo tanto:
 
 $$\begin{cases}
-        \mathbf{L}^\mathrm{CM} = \mathbf{L}_0^\mathrm{CM} \implies 2 m \mathcolor{pblue}{r_1}^2 \mathcolor{pgreen}{\dot{\theta}_1} \hat{z} = - m d v_0 \sin \alpha \hat{z} , \\
-        E = E_0 \implies m \left( \mathcolor{pred}{\dot{r}_1}^2 + \mathcolor{pblue}{r_1}^2 \mathcolor{pgreen}{\dot{\theta}_1}^2 \right) - G \frac{m^2}{2 \mathcolor{pblue}{r_1}} = m v_0^2 - G \frac{m^2}{d}.
+        \mathbf{L}^\mathrm{CM} = \mathbf{L}_0^\mathrm{CM} \implies 2 m r_1^2 \dot{\theta}_1 \hat{z} = - m d v_0 \sin \alpha \hat{z} , \\
+        E = E_0 \implies m \left( \dot{r}_1^2 + r_1^2 \dot{\theta}_1^2 \right) - G \frac{m^2}{2 r_1} = m v_0^2 - G \frac{m^2}{d}.
 \end{cases}$$
 
-Como el objetivo es encontrar la velocidad de las partículas, tenemos que despejar $$\mathcolor{pred}{\dot{r}_1}$$ y $$\mathcolor{pgreen}{\dot{\theta}_1}$$ de las ecuaciones anteriores en función de la coordenada $$\mathcolor{pblue}{r_1}$$ (todo lo demás es dato). Despejar la velocidad angular es inmediato porque sale directamente de la ecuación para el momento angular:
+Como el objetivo es encontrar la velocidad de las partículas, tenemos que despejar $$\dot{r}_1$$ y $$\dot{\theta}_1$$ de las ecuaciones anteriores en función de la coordenada $$r_1$$ (todo lo demás es dato). Despejar la velocidad angular es inmediato porque sale directamente de la ecuación para el momento angular:
 
-$$\mathcolor{pgreen}{\dot{\theta}_1} ( \mathcolor{pblue}{r_1} ) = - \frac{d v_0 \sin \alpha}{2 \mathcolor{pblue}{r_1}^2}.$$
+$$\dot{\theta}_1 ( r_1 ) = - \frac{d v_0 \sin \alpha}{2 r_1^2}.$$
 
 El despeje de la velocidad radial es un poquito más complicado así que les queda a ustedes verificar que el resultado es
 
-$$\mathcolor{pred}{\dot{r}_1}^2 ( \mathcolor{pblue}{r_1} ) = v_0^2 - \frac{d^2 v_0^2 \sin^2 \alpha}{4 \mathcolor{pblue}{r_1}^2} + G m \left( \frac{1}{2 \mathcolor{pblue}{r_1}} - \frac{1}{d} \right).$$
+$$\dot{r}_1^2 ( r_1 ) = v_0^2 - \frac{d^2 v_0^2 \sin^2 \alpha}{4 r_1^2} + G m \left( \frac{1}{2 r_1} - \frac{1}{d} \right).$$
 
 El enunciado pedía las velocidades de las partículas cuando la separación entre ambas es $$d/2$$. ¿Qué valor tenemos que darle a $$r_1$$ para que eso se cumpla? Recuerden que $$r_1$$ es la distancia entre el CM y la partícula 1, que es, a su vez, la mitad de la distancia que hay entre las partículas. Por lo tanto, para que 1 y 2 estén separadas $$d/2$$ tenemos que usar $$r_1 = d/4$$. Reemplazando ese valor, nos quedan las velocidades
 
@@ -186,7 +194,7 @@ Les dejo una pregunta sobre estos resultados. Noten que $$\dot{r}_1$$ está defi
 Para terminar, les dejo los resultados de unas simulaciones de este ejercicio para distintos casos. Todos los enlaces llevan a YouTube. En cada video se muestran las trayectorias de las dos partículas, el tiempo y la energía total del sistema (abajo a la izquierda) y barras que indican los niveles de energía mecánica $$E$$, potencial $$U$$ y cinética $$K$$ (si las barras están hacia arriba la energía es positiva y viceversa).
 
 1. [Ejemplo 1]. En este caso, la energía del sistema es nula y, por lo tanto, las partículas describen órbitas parabólicas.
-2. [Ejemplo 2]. En este caso, la energía del sistema también es nula, pero las condiciones iniciales del sistema están elegidas para que el punto de máximo acercamiento\footnote{¿Cuál es la condición que deben cumplir las velocidades de las partículas en el punto de máximo acercamiento?} sea exactamente cuando la distancia entre las partículas es $d/2$.
+2. [Ejemplo 2]. En este caso, la energía del sistema también es nula, pero las condiciones iniciales del sistema están elegidas para que el punto de máximo acercamiento[^4] sea exactamente cuando la distancia entre las partículas es $d/2$.
 3. [Ejemplo 3]. En este caso, la energía del sistema es negativa. Esto quiere decir que las órbitas son cerradas (elípticas o, si la energía es igual al valor mínimo del potencial efectivo, circulares; sin embargo, se ve a ojo que las órbitas son elípticas).
 4. [Ejemplo 4]. Este caso también muestra órbitas elípticas, pero más excéntricas que el caso anterior. Noten, sin embargo, que las órbitas están rotando (y además, que la energía no parece conservarse, lo cual sabemos que no puede ocurrir). Esto no es una solución válida del problema de dos cuerpos que vimos en clase. Entonces, ¿qué está pasando? Lo que ocurre está relacionado con $$\Delta t$$ (el espaciado entre puntos sucesivos del vector de tiempos que se usa para resolver el problema numéricamente). El hecho de que las órbitas roten es consecuencia de errores numéricos que surgen por no usar un $$\Delta t$$ lo suficientemente chico.
 5. [Ejemplo 5]. Este caso es el mismo que el anterior, sólo que la integración se realizó con un paso temporal ($$\Delta t$$) más chico. Como resultado, obtengo las mismas órbitas, solamente que ahora no están en rotación.
@@ -196,6 +204,7 @@ Para terminar, les dejo los resultados de unas simulaciones de este ejercicio pa
 [^1]: Por *válido* quiero decir que sea un sistema inercial; es decir, que tenga aceleración nula. No queremos pelear con fuerzas inerciales acá.
 [^2]: Por supuesto, es irrelevante qué número le ponemos a cada una.
 [^3]: El momento lineal es nulo, ya lo vimos antes cuando analizamos el CM porque $$\mathbf{p} = 2m \mathbf{V}_\mathrm{CM}$$.
+[^4]: ¿Cuál es la condición que deben cumplir las velocidades de las partículas en el punto de máximo acercamiento?
 
 [Ejemplo 1]: https://youtu.be/I3U7MGbQIdA?si=nbO7dpa_yBoRGjr_
 [Ejemplo 2]: https://youtu.be/8C-GpehjkiU?si=Hkg5Vi_8kBwA6iA-
