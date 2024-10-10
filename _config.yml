@@ -5,7 +5,8 @@ theme: just-the-docs
 url: https://ffiza.github.io/mecanica-elemental
 
 aux_links:
-  Github: https://github.com/ffiza/mecanica-elemental
+  GitHub: https://github.com/ffiza/mecanica-elemental
 
+aux_links_new_tab: true
 color_scheme: dark
 math: mathjax
