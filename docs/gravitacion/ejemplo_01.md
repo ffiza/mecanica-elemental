@@ -210,30 +210,6 @@ Para terminar, les dejo los resultados de unas simulaciones de este ejercicio pa
 4. [Ejemplo 4]. Este caso también muestra órbitas elípticas, pero más excéntricas que el caso anterior. Noten, sin embargo, que las órbitas están rotando (y además, que la energía no parece conservarse, lo cual sabemos que no puede ocurrir). Esto no es una solución válida del problema de dos cuerpos que vimos en clase. Entonces, ¿qué está pasando? Lo que ocurre está relacionado con $$\Delta t$$ (el espaciado entre puntos sucesivos del vector de tiempos que se usa para resolver el problema numéricamente). El hecho de que las órbitas roten es consecuencia de errores numéricos que surgen por no usar un $$\Delta t$$ lo suficientemente chico.
 5. [Ejemplo 5]. Este caso es el mismo que el anterior, sólo que la integración se realizó con un paso temporal ($$\Delta t$$) más chico. Como resultado, obtengo las mismas órbitas, solamente que ahora no están en rotación.
 
-<div>
-    Enter a number and see it doubled using Brython (Python running in the browser):
-
-    <input id="myInput" type="number" value="2">
-    <button onclick="myFunction()">Double It!</button>
-
-    <p>Result: <span id="output"></span></p>
-</div>
-
-<script type="text/python">
-    from browser import document
-
-    def myFunction():
-        user_input = document["myInput"].value
-        result = int(user_input) * 2
-        document["output"].text = str(result)
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/brython@3.10.5/brython.min.js"></script>
-<script>
-    // This initializes Brython
-    brython()
-</script>
-
 ----
 
 [^1]: Por *válido* quiero decir que sea un sistema inercial; es decir, que tenga aceleración nula. No queremos pelear con fuerzas inerciales acá.
