@@ -8,7 +8,7 @@ BACKGROUND_COLOR = "#27262b"
 IMAGE_PATH = "assets/images/gravitacion/"
 
 
-fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(4.0, 3.0))
+fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(8.0, 6.0))
 
 ax.spines[['right', 'top', "left", "bottom"]].set_visible(False)
 ax.set_xticks([])
@@ -53,6 +53,6 @@ ax.set_xlim(-2.5, 2.5)
 ax.set_ylim(-1.0, 1.5)
 ax.set_aspect("equal")
 
-plt.savefig(f"{IMAGE_PATH}fig_01.png", pad_inches=0.02, dpi=DPI,
+plt.savefig(f"{IMAGE_PATH}fig_01.svg", pad_inches=0.02, dpi=DPI,
             transparent=True)
 plt.close(fig)
