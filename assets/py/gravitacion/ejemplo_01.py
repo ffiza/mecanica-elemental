@@ -8,7 +8,7 @@ BACKGROUND_COLOR = "#27262b"
 IMAGE_PATH = "assets/images/gravitacion/"
 
 
-fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(8.0, 6.0))
+fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(4.0, 3.0))
 
 ax.spines[['right', 'top', "left", "bottom"]].set_visible(False)
 ax.set_xticks([])
