@@ -23,7 +23,7 @@ Considere dos partículas de masa $$m$$ que interactúan gravitatoriamente entre
 
 3. Para cada una de las partículas, calcule el vector velocidad (componentes paralela y perpendicular al segmento que las une) cuando las partículas se hallan separadas una distancia $$d/2$$.
 
-<img src="../../assets/images/fig_01.svg" style="display: block; margin: 0 auto"/>
+<img src="../../assets/images/fig_01.png" style="display: block; margin: 0 auto"/>
 
 ---
 
