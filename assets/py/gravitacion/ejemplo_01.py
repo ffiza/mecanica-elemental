@@ -49,10 +49,10 @@ ax.add_patch(Arc(xy=(2, 0), width=0.75, height=0.75,
 ax.text(1.75, -0.1, r"$\alpha$", color="white", fontsize=6,
         ha="center", va="center")
 
-ax.set_xlim(-2.4, 2.4)
-ax.set_ylim(-0.6, 1.2)
+ax.set_xlim(-2.2, 2.2)
+ax.set_ylim(-0.5, 1.1)
 ax.set_aspect("equal")
 
-plt.savefig(f"{IMAGE_PATH}fig_01.png", pad_inches=0.02, dpi=DPI,
+plt.savefig(f"{IMAGE_PATH}fig_01.png", bbox_inches="tight", dpi=DPI,
             transparent=True)
 plt.close(fig)
